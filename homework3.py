@@ -1,0 +1,8 @@
+my_stroka=input('Введите строку: ')
+print(my_stroka)
+print(len(my_stroka))
+print(my_stroka.upper())
+print(my_stroka.lower())
+print(my_stroka.replace(' ',''))
+print(my_stroka[:1])
+print(my_stroka[-1])
