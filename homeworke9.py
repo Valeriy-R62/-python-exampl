@@ -118,8 +118,8 @@ a = 34
 b = 43
 if a > b:
     print()
-s = 9
-if s > 0:
+pozitiv_num = 9
+if pozitiv_num > 0:
     print()
 
 # lowercase (слово в нижнем регистре)
