@@ -1,14 +1,13 @@
-def test():
-    a = 5
-    b = 10
-    print(a, b)
+def test(*params):
+    print(params)
 
 
-test()
+test(2, False, 'крот')
+def faktorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n * faktorial(n - 1)
 
 
-def test2(a, b, c):
-    print(a, b, c)
-
-
-test2(a=3, b=9, c=27)
+print(faktorial(9))
