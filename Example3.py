@@ -1,0 +1,12 @@
+class House:
+    def __init__(self,nombersOfFloors = 0):
+        self.nombersOfFloors = nombersOfFloors
+
+    def setNewNombersOfFloors(self):
+        floors = input("Укажите этажность: ")
+        self.nombersOfFloors = floors
+        print(house.nombersOfFloors)
+
+
+house = House()
+house.setNewNombersOfFloors()
