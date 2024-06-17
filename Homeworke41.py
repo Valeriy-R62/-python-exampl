@@ -1,8 +1,7 @@
 class Building:
 
     def __init__(self):
-        self.total = 0
-        self.total += 1
+        self.total = total_building
 
 total_building = []
 builds_size = 40
