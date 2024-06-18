@@ -1,0 +1,11 @@
+class Building:
+    pass
+
+total = 0
+building_total = []
+while len(building_total) < 40:
+    new_building = Building()
+    building_total.append(new_building)
+    total += 1
+print("Всего объектов: ", total)
+print(building_total)
