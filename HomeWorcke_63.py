@@ -15,8 +15,8 @@ class Nissan(Vehicle,Car):
     Car.horse_powers(Car,power=180)
 
 nissan1 = Nissan()
-print(f'тип {Nissan.vehicle_type}')
-print(f'Цена {Nissan.price}')
+print(f'тип {nissan1.vehicle_type}')
+print(f'Цена {nissan1.price}')
 print(f'Мощность {nissan1.power}')
 
 
